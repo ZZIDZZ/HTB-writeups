@@ -1,0 +1,39 @@
+preprod-┌──(gamer㉿kali)-[~/Hacking/HTB/machine/linux_trick]
+preprod-└─$ dig 10.10.11.166                                                                        
+preprod-
+preprod-; <<>> DiG 9.17.19-3-Debian <<>> 10.10.11.166
+preprod-;; global options: +cmd
+preprod-;; Got answer:
+preprod-;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 62946
+preprod-;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+preprod-
+preprod-;; OPT PSEUDOSECTION:
+preprod-; EDNS: version: 0, flags:; udp: 4096
+preprod-;; QUESTION SECTION:
+preprod-;10.10.11.166.			IN	A
+preprod-
+preprod-;; AUTHORITY SECTION:
+preprod-.			817	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2022081702 1800 900 604800 86400
+preprod-
+preprod-;; Query time: 20 msec
+preprod-;; SERVER: 1.1.1.1#53(1.1.1.1) (UDP)
+preprod-;; WHEN: Thu Aug 18 10:51:28 WIB 2022
+preprod-;; MSG SIZE  rcvd: 116
+preprod-
+preprod-
+preprod-
+preprod-dig trick.htb axfr @10.10.11.166              
+preprod-
+preprod-; <<>> DiG 9.17.19-3-Debian <<>> trick.htb axfr @10.10.11.166
+preprod-;; global options: +cmd
+preprod-trick.htb.		604800	IN	SOA	trick.htb. root.trick.htb. 5 604800 86400 2419200 604800
+preprod-trick.htb.		604800	IN	NS	trick.htb.
+preprod-trick.htb.		604800	IN	A	127.0.0.1
+preprod-trick.htb.		604800	IN	AAAA	::1
+preprod-preprod-payroll.trick.htb. 604800 IN	CNAME	trick.htb.
+preprod-trick.htb.		604800	IN	SOA	trick.htb. root.trick.htb. 5 604800 86400 2419200 604800
+preprod-;; Query time: 28 msec
+preprod-;; SERVER: 10.10.11.166#53(10.10.11.166) (TCP)
+preprod-;; WHEN: Thu Aug 18 10:57:35 WIB 2022
+preprod-;; XFR size: 6 records (messages 1, bytes 231)
+preprod-

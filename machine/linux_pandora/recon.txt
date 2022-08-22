@@ -1,0 +1,55 @@
+┌──(manim_env)─(gamer㉿kali)-[~/Hacking/CTFs/HTB/linux_pandora]
+└─$ sudo nmap -sV -sC -O 10.10.11.136                                     130 ⨯
+Starting Nmap 7.92 ( https://nmap.org ) at 2022-04-20 11:19 WIB
+Nmap scan report for 10.10.11.136
+Host is up (0.28s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   3072 24:c2:95:a5:c3:0b:3f:f3:17:3c:68:d7:af:2b:53:38 (RSA)
+|   256 b1:41:77:99:46:9a:6c:5d:d2:98:2f:c0:32:9a:ce:03 (ECDSA)
+|_  256 e7:36:43:3b:a9:47:8a:19:01:58:b2:bc:89:f6:51:08 (ED25519)
+80/tcp open  http    Apache httpd 2.4.41 ((Ubuntu))
+|_http-server-header: Apache/2.4.41 (Ubuntu)
+|_http-title: Play | Landing
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.92%E=4%D=4/20%OT=22%CT=1%CU=42350%PV=Y%DS=2%DC=I%G=Y%TM=625F89F
+OS:2%P=x86_64-pc-linux-gnu)SEQ(SP=108%GCD=1%ISR=10B%TI=Z%CI=Z%TS=A)SEQ(SP=1
+OS:08%GCD=1%ISR=10B%TI=Z%CI=Z%II=I%TS=A)OPS(O1=M505ST11NW7%O2=M505ST11NW7%O
+OS:3=M505NNT11NW7%O4=M505ST11NW7%O5=M505ST11NW7%O6=M505ST11)WIN(W1=FE88%W2=
+OS:FE88%W3=FE88%W4=FE88%W5=FE88%W6=FE88)ECN(R=Y%DF=Y%T=40%W=FAF0%O=M505NNSN
+OS:W7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%D
+OS:F=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O
+OS:=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W
+OS:=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%R
+OS:IPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+
+┌──(manim_env)─(gamer㉿kali)-[~/Hacking/CTFs/HTB/linux_pandora]
+└─$ sudo nmap -sU -v 10.10.11.136
+Network Distance: 2 hops
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 35.75 seconds
+
+
+UDP Scan Timing: About 87.74% done; ETC: 12:03 (0:02:09 remaining)
+Discovered open port 161/udp on 10.10.11.136
+UDP Scan Timing: About 92.79% done; ETC: 12:03 (0:01:16 remaining)
+Completed UDP Scan at 12:04, 1088.69s elapsed (1000 total ports)
+Nmap scan report for 10.10.11.136
+Host is up (0.28s latency).
+Not shown: 999 closed udp ports (port-unreach)
+PORT    STATE SERVICE
+161/udp open  snmp
+
+Read data files from: /usr/bin/../share/nmap
+Nmap done: 1 IP address (1 host up) scanned in 1089.16 seconds
+           Raw packets sent: 1451 (65.492KB) | Rcvd: 1092 (78.944KB)
+
+
+
+-c sleep 30; /bin/bash -c '/usr/bin/host_check -u daniel -p HotelBabylon23'

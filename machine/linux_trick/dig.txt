@@ -1,0 +1,39 @@
+┌──(gamer㉿kali)-[~/Hacking/HTB/machine/linux_trick]
+└─$ dig 10.10.11.166                                                                        
+
+; <<>> DiG 9.17.19-3-Debian <<>> 10.10.11.166
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 62946
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;10.10.11.166.			IN	A
+
+;; AUTHORITY SECTION:
+.			817	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2022081702 1800 900 604800 86400
+
+;; Query time: 20 msec
+;; SERVER: 1.1.1.1#53(1.1.1.1) (UDP)
+;; WHEN: Thu Aug 18 10:51:28 WIB 2022
+;; MSG SIZE  rcvd: 116
+
+
+
+dig trick.htb axfr @10.10.11.166              
+
+; <<>> DiG 9.17.19-3-Debian <<>> trick.htb axfr @10.10.11.166
+;; global options: +cmd
+trick.htb.		604800	IN	SOA	trick.htb. root.trick.htb. 5 604800 86400 2419200 604800
+trick.htb.		604800	IN	NS	trick.htb.
+trick.htb.		604800	IN	A	127.0.0.1
+trick.htb.		604800	IN	AAAA	::1
+preprod-payroll.trick.htb. 604800 IN	CNAME	trick.htb.
+trick.htb.		604800	IN	SOA	trick.htb. root.trick.htb. 5 604800 86400 2419200 604800
+;; Query time: 28 msec
+;; SERVER: 10.10.11.166#53(10.10.11.166) (TCP)
+;; WHEN: Thu Aug 18 10:57:35 WIB 2022
+;; XFR size: 6 records (messages 1, bytes 231)
+

@@ -1,0 +1,465 @@
+} 0x7d
+CALCULATOR
+
+Operation:
+
+{ 0x7b
+CALCULATOR
+
+Operation:
+
+  0x20
+CALCULATOR
+
+Operation:
+
+a 0x61
+CALCULATOR
+
+Operation:
+
+b 0x62
+CALCULATOR
+
+Operation:
+
+c 0x63
+CALCULATOR
+
+Operation:
+
+d 0x64
+CALCULATOR
+
+Operation:
+
+e 0x65
+CALCULATOR
+
+Operation:
+
+f 0x66
+CALCULATOR
+
+Operation:
+
+g 0x67
+CALCULATOR
+
+Operation:
+
+h 0x68
+CALCULATOR
+
+Operation:
+
+i 0x69
+CALCULATOR
+
+Operation:
+
+j 0x6a
+CALCULATOR
+
+Operation:
+
+k 0x6b
+CALCULATOR
+
+Operation:
+
+l 0x6c
+CALCULATOR
+
+Operation:
+
+m 0x6d
+CALCULATOR
+
+Operation:
+
+n 0x6e
+CALCULATOR
+
+Operation:
+
+o 0x6f
+CALCULATOR
+
+Operation:
+
+p 0x70
+CALCULATOR
+
+Operation:
+
+q 0x71
+CALCULATOR
+
+Operation:
+
+r 0x72
+CALCULATOR
+
+Operation:
+
+s 0x73
+CALCULATOR
+
+Operation:
+
+t 0x74
+CALCULATOR
+
+Operation:
+
+u 0x75
+CALCULATOR
+
+Operation:
+
+v 0x76
+CALCULATOR
+
+Operation:
+
+w 0x77
+CALCULATOR
+
+Operation:
+
+x 0x78
+CALCULATOR
+
+Operation:
+
+y 0x79
+CALCULATOR
+
+Operation:
+
+z 0x7a
+CALCULATOR
+
+Operation:
+
+0 0x30
+CALCULATOR
+
+Operation:
+
+1 0x31
+CALCULATOR
+
+Operation:
+
+2 0x32
+CALCULATOR
+
+Operation:
+
+3 0x33
+CALCULATOR
+
+Operation:
+
+4 0x34
+CALCULATOR
+
+Operation:
+
+5 0x35
+CALCULATOR
+
+Operation:
+
+6 0x36
+CALCULATOR
+
+Operation:
+
+7 0x37
+CALCULATOR
+
+Operation:
+
+8 0x38
+CALCULATOR
+
+Operation:
+
+9 0x39
+CALCULATOR
+
+Operation:
+
+A 0x41
+CALCULATOR
+
+Operation:
+
+B 0x42
+CALCULATOR
+
+Operation:
+
+C 0x43
+CALCULATOR
+
+Operation:
+
+D 0x44
+CALCULATOR
+
+Operation:
+
+E 0x45
+CALCULATOR
+
+Operation:
+
+F 0x46
+CALCULATOR
+
+Operation:
+
+G 0x47
+CALCULATOR
+
+Operation:
+
+H 0x48
+CALCULATOR
+
+Operation:
+
+I 0x49
+CALCULATOR
+
+Operation:
+
+J 0x4a
+CALCULATOR
+
+Operation:
+
+K 0x4b
+CALCULATOR
+
+Operation:
+
+L 0x4c
+CALCULATOR
+
+Operation:
+
+M 0x4d
+CALCULATOR
+
+Operation:
+
+N 0x4e
+CALCULATOR
+
+Operation:
+
+O 0x4f
+CALCULATOR
+
+Operation:
+
+P 0x50
+CALCULATOR
+
+Operation:
+
+Q 0x51
+CALCULATOR
+
+Operation:
+
+R 0x52
+CALCULATOR
+
+Operation:
+
+S 0x53
+CALCULATOR
+
+Operation:
+
+T 0x54
+CALCULATOR
+
+Operation:
+
+U 0x55
+CALCULATOR
+
+Operation:
+
+V 0x56
+CALCULATOR
+
+Operation:
+
+W 0x57
+CALCULATOR
+
+Operation:
+
+X 0x58
+CALCULATOR
+
+Operation:
+
+Y 0x59
+CALCULATOR
+
+Operation:
+
+Z 0x5a
+CALCULATOR
+
+Operation:
+
+# 0x23
+CALCULATOR
+
+Operation:
+
+$ 0x24
+CALCULATOR
+
+Operation:
+
+% 0x25
+CALCULATOR
+
+Operation:
+
+& 0x26
+CALCULATOR
+
+Operation:
+
+\ 0x5c
+CALCULATOR
+
+Operation:
+
+' 0x27
+CALCULATOR
+
+Operation:
+
+( 0x28
+CALCULATOR
+
+Operation:
+
+) 0x29
+CALCULATOR
+
+Operation:
+
++ 0x2b
+CALCULATOR
+
+Operation:
+
+, 0x2c
+CALCULATOR
+
+Operation:
+
+- 0x2d
+CALCULATOR
+
+Operation:
+
+. 0x2e
+CALCULATOR
+
+Operation:
+
+/ 0x2f
+CALCULATOR
+
+Operation:
+
+: 0x3a
+CALCULATOR
+
+Operation:
+
+; 0x3b
+CALCULATOR
+
+Operation:
+
+< 0x3c
+CALCULATOR
+
+Operation:
+
+= 0x3d
+CALCULATOR
+
+Operation:
+
+> 0x3e
+CALCULATOR
+
+Operation:
+
+? 0x3f
+CALCULATOR
+
+Operation:
+
+@ 0x40
+CALCULATOR
+
+Operation:
+
+[ 0x5b
+CALCULATOR
+
+Operation:
+
+\ 0x5c
+CALCULATOR
+
+Operation:
+
+] 0x5d
+CALCULATOR
+
+Operation:
+
+^ 0x5e
+CALCULATOR
+
+Operation:
+
+_ 0x5f
+CALCULATOR
+
+Operation:
+
+` 0x60
+CALCULATOR
+
+Operation:
+
+| 0x7c
+CALCULATOR
+
+Operation:
+
+~ 0x7e
+CALCULATOR
+
+Operation:
+
