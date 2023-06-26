@@ -47,7 +47,7 @@ def main(s):
 	send_msg(s, wlcm_msg)
 
 	msg = 'logged_username=' + user +'&password=' + passwd
-
+	print(msg)
 	try:
 		assert('admin&password=g0ld3n_b0y' not in msg)
 	except AssertionError:

@@ -1,14 +1,3 @@
-Tzo5OiJQYWdlTW9kZWwiOjE6e3M6NDoiZmlsZSI7czoxNToiL3d3dy9pbmRleC5odG1sIjt9
-is
-O:9:"PageModel":1:{s:4:"file";s:15:"/www/index.html";}
-
-O:9:"PageModel":1:{s:4:"file";s:14:"/www/index.php";}
-is
-
-O:9:"PageModel":1:{s:4:"file";s:15:"/www/index.html";}
-O:<classnamelength>:"<classname>":<numberofproperties>:{s:4:"file";s:15:"/www/index.html";}
-
-
 <?php
 spl_autoload_register(function ($name){
     if (preg_match('/Model$/', $name))
@@ -33,4 +22,3 @@ if (empty($_COOKIE['PHPSESSID']))
 
 $cookie = base64_decode($_COOKIE['PHPSESSID']);
 unserialize($cookie);
-?>
